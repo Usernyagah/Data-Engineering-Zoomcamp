@@ -1,0 +1,13 @@
+services:
+  analytics:
+    build: .
+    container_name: module_4_analytics
+    environment:
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID}
+      - GCP_GCS_BUCKET=${GCP_GCS_BUCKET}
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/credentials.json
+      - DBT_PROFILES_DIR=/app
+    volumes:
+      - .:/app
+      - ${GOOGLE_APPLICATION_CREDENTIALS_PATH}:/app/credentials.json
+    working_dir: /app/taxi_rides_ny
