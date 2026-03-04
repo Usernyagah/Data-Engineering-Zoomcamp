@@ -32,6 +32,6 @@ python analyze_taxi_data.py
 
 | Question | Answer |
 |----------|--------|
-| Q1: Date range of dataset | **2009-06-01 to 2009-06-30** |
+| Q1: Date range of dataset | **2009-06-01 to 2009-07-01** |
 | Q2: Credit card trip proportion | **26.66%** |
 | Q3: Total tips generated | **$6,063.41** |
