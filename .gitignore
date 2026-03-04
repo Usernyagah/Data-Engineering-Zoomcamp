@@ -20,3 +20,5 @@ venv/
 # Misc
 .DS_Store
 *.log
+
+.bruin.yml*.duckdb
