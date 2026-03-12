@@ -21,4 +21,7 @@ venv/
 .DS_Store
 *.log
 
-.bruin.yml*.duckdb
+.bruin.yml
+*.duckdb
+*.parquet
+output/
